@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+:root {
+  --font-manrope: 'Manrope', sans-serif;
+}
+
+@theme inline {
+  --default-font-family: var(--font-manrope), var(--font-sans);
+
+  --color-dark-1: #1c1c1c;
+  --color-dark-2: #494949;
+  --color-dark-3: #777777;
+
+  --color-white-1: #f4f4f4;
+
+  --color-grad-1: #ff8938;
+  --color-grad-2: #ff0000;
+}
+
+@layer components {
+  .heading-primary,
+  .heading-secondary,
+  .heading-tertiary,
+  .heading-quaternary {
+    color: var(--color-dark-1);
+    @apply font-extrabold;
+  }
+
+  .heading-primary {
+    @apply text-4xl text-center sm:text-left leading-12 md:text-5xl lg:text-6xl md:leading-15 lg:leading-17;
+  }
+}

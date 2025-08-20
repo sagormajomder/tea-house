@@ -1,0 +1,16 @@
+{
+  "name": "tea-house",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Sagor Majomder",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
