@@ -30,3 +30,10 @@
     @apply text-4xl text-center sm:text-left leading-12 md:text-5xl lg:text-6xl md:leading-15 lg:leading-17;
   }
 }
+
+@utility heading-secondary {
+  @apply text-3xl mb-5 md:text-4xl lg:text-5xl;
+}
+@utility heading-tertiary {
+  @apply text-2xl;
+}
