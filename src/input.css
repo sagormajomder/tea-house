@@ -37,3 +37,7 @@
 @utility heading-tertiary {
   @apply text-2xl;
 }
+
+@utility heading-quaternary {
+  @apply text-xl;
+}
